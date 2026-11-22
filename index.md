@@ -14,14 +14,14 @@ This policy explains what information G-Motion uses, where it goes, and what sta
 
 ## 1. Data that stays on your device
 
-G-Motion stores the following in its data folder (`%APPDATA%\G-Motion`) on your computer:
+G-Motion stores the following in its data folder on your computer (for the Microsoft Store version, Windows keeps this folder inside the app's own package data):
 
 - your settings and widget choices;
 - your wallpaper library (paths and links to videos you add);
 - thumbnails created from your videos;
 - videos you send from your phone using the optional Phone Remote.
 
-This data is not uploaded to the developer or to any other server. Uninstalling the app and deleting that folder removes it.
+This data is not uploaded to the developer or to any other server. When you uninstall the Microsoft Store version, Windows removes this data together with the app. (If you use a version installed outside the Store, delete the `%APPDATA%\G-Motion` folder to remove it.)
 
 ## 2. Weather features (approximate location)
 
@@ -68,8 +68,7 @@ G-Motion is not directed at children, and it does not knowingly collect personal
 ## 9. Your choices
 
 - Turn off the weather features to stop sending location data.
-- Delete the `%APPDATA%\G-Motion` folder to remove local data.
-- Uninstall the app at any time.
+- Uninstall the app at any time; this removes the data it stored on your computer. Videos you sent from your phone are stored in the same place, so back up any you want to keep first.
 
 ## 10. Changes to this policy
 
